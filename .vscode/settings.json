@@ -1,0 +1,10 @@
+
+{
+  "typescript.suggestionActions.enabled": true,
+  "javascript.suggestionActions.enabled": true,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": true
+  }
+}
