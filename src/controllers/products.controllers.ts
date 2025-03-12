@@ -26,5 +26,5 @@ export async function deleteProductHandler(id: string){
         return NextResponse.json({error: 'ID invalido.'}, {status: 400})
     }
     const data = await deleteProduct(numId)
-    return NextResponse.json(data, {status: 204})
+    return NextResponse.json(data, {status: 200})
 }
